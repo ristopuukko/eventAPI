@@ -1,7 +1,7 @@
 
-## 		eventAPI calls
+# 		eventAPI calls
 
-#		RECORD AN EVENT USING JSON PYALOAD
+##		RECORD AN EVENT USING JSON PAYLOAD
 
 	url : /event
 
@@ -9,18 +9,18 @@
 
 	urlparams (required ) :
 		
-#		JSON payload 
+###		JSON payload 
 
 		example : {"key":"value","another_key":"another_value"}
 	
 
-#	Success response : 
+###	Success response : 
 	
 		code: 200
 
 		content: 'Ok'
 
-#	Error response : 
+###	Error response : 
 	
 		code: 400
 
@@ -29,7 +29,7 @@
 
 
 
-#		FETCH RECORDED EVENT DATA
+##		FETCH RECORDED EVENT DATA
 
 	url : /findevent
 
@@ -37,7 +37,7 @@
 
 	urlparams (required ) :
 	
-#		JSON query string 	
+###		JSON query string 	
 
 		example : {
 						"city":[name of the city],
@@ -52,13 +52,13 @@
  					}
 
 
-#	Success response : 
+###	Success response : 
 	
 		code: 200
 
 		content: [JSON PAYLOAD]
 
-#	Error response : 
+###	Error response : 
 	
 		code: 400
 
