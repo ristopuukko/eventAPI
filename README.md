@@ -9,7 +9,7 @@
 
 	urlparams (required ) :
 		
-###		JSON payload 
+		JSON payload 
 
 		example : {"key":"value","another_key":"another_value"}
 	
@@ -37,7 +37,7 @@
 
 	urlparams (required ) :
 	
-###		JSON query string 	
+		JSON query string 	
 
 		example : {
 						"city":[name of the city],
