@@ -1,7 +1,16 @@
 
-# 		eventAPI calls
+# 		eventAPI
 
-##		RECORD AN EVENT USING JSON PAYLOAD
+
+### INSTALL 
+
+	docker-compose -f stack.yml up
+
+
+## 		endpoints
+
+
+###		RECORD AN EVENT USING JSON PAYLOAD
 
 	url : /event
 
@@ -14,13 +23,13 @@
 		example : {"key":"value","another_key":"another_value"}
 	
 
-###	Success response : 
+####	Success response : 
 	
 		code: 200
 
 		content: 'Ok'
 
-###	Error response : 
+####	Error response : 
 	
 		code: 400
 
@@ -52,13 +61,13 @@
  					}
 
 
-###	Success response : 
+####	Success response : 
 	
 		code: 200
 
 		content: [JSON PAYLOAD]
 
-###	Error response : 
+####	Error response : 
 	
 		code: 400
 
