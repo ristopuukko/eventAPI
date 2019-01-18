@@ -7,7 +7,7 @@
 	docker-compose -f stack.yml up
 
 
-## 		endpoints
+## 		API Docs
 
 
 ###		RECORD AN EVENT USING JSON PAYLOAD
